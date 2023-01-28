@@ -1,2 +1,2 @@
 # exodia-icons
-Icons for Exodia OS
+icons and cursor for Exodia OS
