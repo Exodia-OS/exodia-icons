@@ -2,16 +2,14 @@
 # Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
 #
 
-pkgname=exodia-Win11-icons
+pkgname=exodia-windows-icons
 pkgver=1.0
 pkgrel=1
-pkgdesc="Icons For Exodia OS"
+pkgdesc="Windows OS Icons For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-theming"
 license=('GPL3')
 groups=("exodia-icons")
-provides=("Win11-icons")
-conflicts=("Win11-icons")
 options=(!strip !emptydirs)
 
 prepare() {
