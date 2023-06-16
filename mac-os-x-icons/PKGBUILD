@@ -1,0 +1,27 @@
+#
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+#
+
+pkgname=mac-os-x-icons
+pkgver=1.0
+pkgrel=1
+pkgdesc="MAC OSX Icons For Exodia OS"
+arch=('any')
+url="https://github.com/Exodia-OS/exodia-theming"
+license=('GPL3')
+groups=("exodia-icons")
+options=(!strip !emptydirs)
+
+prepare() {
+
+	cp -af ../icons/. ${srcdir}
+
+}
+
+package() {
+
+	local icons_dir=${pkgdir}/usr/share/icons
+	mkdir -p ${icons_dir}
+	cp -r ${srcdir}/* ${icons_dir}
+
+}
