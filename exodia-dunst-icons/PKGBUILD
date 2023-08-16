@@ -4,14 +4,12 @@
 
 pkgname=exodia-dunst-icons
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Icons For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-theming"
 license=('GPL3')
 groups=("exodia-icons")
-# provides=("dunst-icons")
-# conflicts=("dunst-icons")
 options=(!strip !emptydirs)
 
 prepare() {
